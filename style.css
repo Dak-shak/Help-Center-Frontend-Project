@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+
+}
+.logo-first{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo-first span{
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.logo{
+    width: 125px;
+}
+.btn-container{
+    margin-right: 50px;
+    font-size: 25px;
+}
+.sub-btn{
+    padding: 10px 18px;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+.log-btn{
+    padding: 10px 17px;
+    background-color: rgb(44, 9, 240);
+    border: 1px solid #fff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.log-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+    /* search/text  */
+
+#searching{
+    background-color: #dadbf1;
+    height: 350px;
+}
+.text{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.search-family{
+    justify-items: center;
+    padding-top: 150px;    
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    overflow: hidden;
+    width: 500px;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* General Styling */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 20px;
+    margin-top: 8px;
+
+}
+
+.parent-card1, .parent-card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%; 
+}
+
+
+.card1, .card2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    
+    
+}
+
+.card1 figure img, .card2 figure img {
+    width: 50px;
+    height: auto;
+}
+
+/* Typography */
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Learn More Link */
+a {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+.footerp{
+    margin-top: 50px;
+}
+
+.footer-section a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+.footer-logo {
+    max-width: 50px;
+    margin-bottom: 10px;
+    margin-right: px;
+}
+
+
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo-first {
+        margin: 0;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        gap: 30px; 
+        margin-top: 15px; 
+    }
+
+    .sub-btn, .log-btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent-card1, .parent-card2 {
+        width: 100%;
+    }
+
+    .card1, .card2 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
