@@ -117,11 +117,10 @@ body{
 }
 
 .card1 figure img, .card2 figure img {
-    width: 90px;
+    width: 80px;
     height: auto;
-    margin-bottom: 90px;
-}
-
+    margin-bottom: 20px;
+} 
 
 h2 {
     font-size: 20px;
@@ -175,7 +174,7 @@ a:hover {
     transition: color 0.3s;
 }
 .footerp{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .footer-section a:hover {
@@ -184,13 +183,14 @@ a:hover {
 
 .footer-bottom {
     text-align: center;
-    margin-left: 50%;
+    margin-top: 140px;
+
 }
 
 .footer-logo {
     max-width: 50px;
-    margin-bottom: 15px;
-    margin-right: 0px;
+    /* margin-bottom: 10px; */
+    /* margin-right: 0px; */
 }
 #fooer-help{
     text-align: end;
