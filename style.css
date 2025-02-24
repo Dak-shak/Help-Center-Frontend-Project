@@ -114,36 +114,34 @@ body{
     align-items: center;
     gap: 15px;
     padding: 20px;
-    
-    
 }
 
 .card1 figure img, .card2 figure img {
-    width: 50px;
+    width: 90px;
     height: auto;
     margin-bottom: 90px;
 }
 
-/* Typography */
+
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 span {
-    font-size: 20px;
+    font-size: 15px;
     color: #333;
     line-height: 1.5;
 }
 
 /* Learn More Link */
 a {
-    font-size: 14px;
+    font-size: 15px;
     color: #1a73e8;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 a:hover {
     text-decoration: underline;
@@ -156,6 +154,7 @@ a:hover {
 }
 
 .footer-container {
+    margin-top: 30px;
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -185,16 +184,38 @@ a:hover {
 
 .footer-bottom {
     text-align: center;
-    margin-top: 20px;
     margin-left: 50%;
 }
 
 .footer-logo {
     max-width: 50px;
-    margin-bottom: 10px;
-    margin-right: px;
+    margin-bottom: 15px;
+    margin-right: 0px;
 }
-
+#fooer-help{
+    text-align: end;
+    margin-right: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.bx-question-mark{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+    
+}
+.footer-btn{
+    background-color: blue;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+   
+}
 
 
 /* Mobile Navigation */
@@ -220,10 +241,8 @@ a:hover {
         text-align: center;
         padding: 12px 0;
     }
-
-    
 }
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .main-container {
         flex-direction: column;
@@ -238,5 +257,28 @@ a:hover {
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; 
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-section {
+       align-content: center;
+    }
+
+    .footer-section a {
+        display: inline-block; 
+        margin: 4px 8px;
+    }
+    .footerp{
+        margin-top: 15px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        text-align: center;
     }
 }
